@@ -10,10 +10,6 @@
             <button type="submit">Calcular</button>
         </form>
 
-        <div class="result-display" *ngIf="resultado">
-            <p>Seu resultado é {{resultado}} </p>
-        </div>
-
         @if (resultado) {
         <div class="result-display">
             <p> Resultado: <span id="result"> {{resultado}}</span></p>
@@ -23,5 +19,13 @@
             <p> Seu resultado aparecerá aqui</p>
         </div>
         }
+
+        <!-- Outra forma de fazer o IF pelo CommonModule do Angular 
+
+        <div class="result-display" *ngIf="resultado">
+            <p>Seu resultado é {{resultado}} </p>
+        </div>
+
+        -->
     </div>
 </div>
