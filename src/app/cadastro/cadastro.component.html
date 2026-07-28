@@ -45,14 +45,17 @@
                 </mat-card-content>
 
                 <mat-card-actions>
+                    @if (!atualizando) {
                     <button mat-raised-button color="primary" type="submit">
                         <mat-icon fontIcon="save"></mat-icon>
                         Salvar
                     </button>
+                    } @else {
                     <button mat-raised-button color="primary" type="submit">
                         <mat-icon fontIcon="refresh"></mat-icon>
                         Atualizar
                     </button>
+                    }
                     <button mat-raised-button color="accent" class="ml-5">
                         <mat-icon fontIcon=" backspace"></mat-icon>
                         Limpar
