@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { CadastroComponent } from './cadastro/cadastro.component';
-import { ConsultaComponent } from './consulta/consulta.component';
+import { CadastroComponent } from './formularioCliente/cadastro/cadastro.component';
+import { ConsultaComponent } from './formularioCliente/consulta/consulta.component';
 
 export const routes: Routes = [
     {path: 'cadastro', component: CadastroComponent},
