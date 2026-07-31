@@ -3,7 +3,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatToolbar } from "@angular/material/toolbar";
 import { RouterLink, RouterModule } from '@angular/router';
 
-// essa classe deve ficar na raiz do projeto para funcionar 
+// PRECISAR ESTAR NA RAIZ DO PROJETO PARA FUNCIONAR
 
 @Component({
   selector: 'app-root',
