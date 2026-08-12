@@ -11,5 +11,23 @@
       "id": "iHVqIoqFUNk"
     }
   ],
+  "lugares": [
+    {
+      "nome": "Praia do zé",
+      "categoria": "Praias",
+      "localizacao": "Guarujá",
+      "urlFoto": "foto teste",
+      "avaliacao": "4",
+      "id": "tYHG1nfi9mM"
+    },
+    {
+      "nome": "Restaurante do Sol",
+      "categoria": "Restaurantes",
+      "localizacao": "Campinas",
+      "urlFoto": "https://blog-cnm.s3.sa-east-1.amazonaws.com/2022/12/lucianolimadrone-1-min.png",
+      "avaliacao": "5",
+      "id": "8OVUWfg_Qmw"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
