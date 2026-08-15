@@ -34,4 +34,9 @@ export class GaleriaComponent implements OnInit {
   getTotalEstrelas(lugar: Lugar) : string {
     return '&#9733;'.repeat(lugar.avaliacao || 0) + '&#9734;'.repeat(5 - (lugar.avaliacao || 0));
   }
+
+  filtrar(){
+    this.lugarService.filtrar(this.nomeFiltro, this.categoriaFiltro)
+      .subscribe(lugaresResposta => this.lugares = lugaresResposta);
+  }
 }
